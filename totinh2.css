@@ -1,0 +1,54 @@
+
+body{
+    background-image: url("anhnen2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    font: 16em/1 Arial;
+    }
+    
+    .text--line {
+    font-size: .5em;
+    }
+    
+    svg {
+    position: absolute;
+    width: auto;
+    height: 250px;
+    padding:2px;
+    border-radius: 20px;
+    
+    }
+    
+    .text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 7% 28%;
+    stroke-width: 3px;
+    animation: stroke-offset 4s infinite linear; }
+    .text-copy:nth-child(1) {
+    stroke: #360745;
+    stroke-dashoffset: 7%; }
+    .text-copy:nth-child(2) {
+    stroke: #D61C59;
+    stroke-dashoffset: 14%; }
+    .text-copy:nth-child(3) {
+    stroke: #E7D84B;
+    stroke-dashoffset: 21%; }
+    .text-copy:nth-child(4) {
+    stroke: #EFEAC5;
+    stroke-dashoffset: 28%; }
+    .text-copy:nth-child(5) {
+    stroke: #F8F8FF;
+    stroke-dashoffset: 35%; }
+    
+    @keyframes stroke-offset {
+    50% {
+    stroke-dashoffset: 35%;
+    stroke-dasharray: 0 87.5%; }
+    }
+    p{
+    padding-top: 300px;
+    padding-left: 170px;
+    }
+    
